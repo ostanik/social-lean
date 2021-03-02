@@ -22,7 +22,7 @@ pod 'SocialLean'
 
 ## Author
 
-ostanik, alan.ostanik@farfetch.com
+ostanik, [@ostanik](https://twitter.com/aostanik)
 
 ## License
 
