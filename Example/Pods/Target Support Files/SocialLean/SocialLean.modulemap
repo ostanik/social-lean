@@ -1,0 +1,6 @@
+framework module SocialLean {
+  umbrella header "SocialLean-umbrella.h"
+
+  export *
+  module * { export * }
+}

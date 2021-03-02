@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'SocialLean_Example' do
+  pod 'SwiftLint'
+  pod 'SocialLean', :path => '../'
+
+  target 'SocialLean_Tests' do
+    inherit! :search_paths
+  end
+end

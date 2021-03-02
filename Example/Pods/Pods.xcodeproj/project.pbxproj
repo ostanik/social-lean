@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03F951CA2759F9B316F01A03D1CCD5DD /* Pods-SocialLean_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36329087E1A0EA99F98C0C9692FAD6DF /* Pods-SocialLean_Example-dummy.m */; };
+		0F9540BA94769FA78C0D4F51479330B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2DD365C24AF6FE4E7C22257E8CC90888 /* Pods-SocialLean_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBDE220B6E55045EEF2D01062E1C893 /* Pods-SocialLean_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		389112D76513B16512B70FE327D1F6C7 /* SocialLean-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E851F5CB5455132A225968DF76A5E9F0 /* SocialLean-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B4DC82D00A68FB9043B513E48286A73 /* FacebookLogin+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966762C24C42A7051BC435CE750A453B /* FacebookLogin+Errors.swift */; };
+		5F33FFB31BCF990EE3C61393EB846751 /* SocialLean-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C5206E74BEC1D153421EEB7B91990C /* SocialLean-dummy.m */; };
+		66581337C048EC41B10CD7946E0AA8DC /* FacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E845F035244C049E79A0971DEA06887 /* FacebookLogin.swift */; };
+		8060C7247D685AAA2C35B6B9F0F1A5F5 /* Pods-SocialLean_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE915FC5B833FE9E9DF100F132FBE93C /* Pods-SocialLean_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FBD7B006F4B92CA3934BEE0B43C6595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ACC87BD4E3DE83F42F909692B3B181CA /* Pods-SocialLean_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F11F159630CAC9D5732CC599FF6AE17 /* Pods-SocialLean_Tests-dummy.m */; };
+		BF5892AC7B03A8B6CDAFD4FA2288B243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3959CE125EA9A4900426BE7 /* SocialLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3959CD725EA97FA00426BE7 /* SocialLogin.swift */; };
+		C3959CE825EA9B2200426BE7 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3959CE725EA9B2200426BE7 /* LoginResponse.swift */; };
+		C396CA2625E8194C00043A1A /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396CA2525E8194C00043A1A /* ResponseCode.swift */; };
+		C396CA2C25E8197A00043A1A /* ResponseToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396CA2B25E8197A00043A1A /* ResponseToken.swift */; };
+		CD32989AB00AD19E9EB3B6839D30EB85 /* FacebookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE632E035938BC869D3C02A7E60AC0 /* FacebookResponse.swift */; };
+		E55E0F792CF3F2C35B130A0E976403AB /* FacebookLogin+Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB75BE4E0D88C2DD9DE2C8EC7FBAD7 /* FacebookLogin+Scopes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F729D71E771FD7DAFA4000D7D60B67A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70E71816A22AE198AF3BA382DC417789;
+			remoteInfo = SocialLean;
+		};
+		BCEE201364EBA9FB5D306B44B5DBCBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678550B37657F0DD3FFB45FF6D83E6A7;
+			remoteInfo = "Pods-SocialLean_Example";
+		};
+		C791D279C62B2524B2B502A76EAC286C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0329217CD472A6AF2124169FAFA44B1E /* Pods-SocialLean_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLean_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0331617C781153D2808E3303C7902954 /* Pods-SocialLean_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLean_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		040E661D8D4C03E894EB8746BD0A8AA8 /* Pods-SocialLean_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLean_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0559A70DC2BBAF3A917492119E8C48C4 /* Pods-SocialLean_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialLean_Example.modulemap"; sourceTree = "<group>"; };
+		0E845F035244C049E79A0971DEA06887 /* FacebookLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FacebookLogin.swift; sourceTree = "<group>"; };
+		15A904CA3E9210F3DF6BFBB775A1639D /* SocialLean-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocialLean-Info.plist"; sourceTree = "<group>"; };
+		1632B38F736C05BA55DCC4CC8483D3D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		22A5A838AD715DC8E83083E538375687 /* SocialLean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialLean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36329087E1A0EA99F98C0C9692FAD6DF /* Pods-SocialLean_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialLean_Example-dummy.m"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		3FDE632E035938BC869D3C02A7E60AC0 /* FacebookResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FacebookResponse.swift; sourceTree = "<group>"; };
+		432353794B8BA241CD34EEB8D5F31519 /* SocialLean.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocialLean.modulemap; sourceTree = "<group>"; };
+		4D4BA35BAC864AE14DE0F59D0DC41E8B /* Pods-SocialLean_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLean_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		59C9CC1A41FD3F63128D7A7C54ACB307 /* SocialLean-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialLean-prefix.pch"; sourceTree = "<group>"; };
+		59E7BBB37A8DA96043E5399F9487EBB7 /* Pods-SocialLean_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialLean_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5F11F159630CAC9D5732CC599FF6AE17 /* Pods-SocialLean_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialLean_Tests-dummy.m"; sourceTree = "<group>"; };
+		5FBDE220B6E55045EEF2D01062E1C893 /* Pods-SocialLean_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialLean_Tests-umbrella.h"; sourceTree = "<group>"; };
+		605389BAA8BA358A844BDA141EE32515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		675A070CB2EF9ED20B88722FFD875307 /* Pods_SocialLean_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLean_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C5206E74BEC1D153421EEB7B91990C /* SocialLean-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocialLean-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		885A1E39972BB653D42A92221D6CA25E /* Pods-SocialLean_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocialLean_Tests.modulemap"; sourceTree = "<group>"; };
+		8F80428C5153B89A8918CAF23128E519 /* Pods_SocialLean_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLean_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92911F164893831BE3E6F3D5BDD854A0 /* Pods-SocialLean_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLean_Example.release.xcconfig"; sourceTree = "<group>"; };
+		95B939394F3FBB8ED61CFD10BC84015F /* Pods-SocialLean_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLean_Example-Info.plist"; sourceTree = "<group>"; };
+		966762C24C42A7051BC435CE750A453B /* FacebookLogin+Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FacebookLogin+Errors.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6E4390E0E6D193438F3E1AFBD2F0234 /* Pods-SocialLean_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialLean_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB82C492E5257A26CC4A3DA00FA55438 /* Pods-SocialLean_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLean_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C37B92C91F791E2D72FED0BD2BBF6E44 /* SocialLean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialLean.debug.xcconfig; sourceTree = "<group>"; };
+		C3959CD725EA97FA00426BE7 /* SocialLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocialLogin.swift; path = SocialLean/Classes/SocialLogin.swift; sourceTree = "<group>"; };
+		C3959CE725EA9B2200426BE7 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		C396CA2525E8194C00043A1A /* ResponseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCode.swift; sourceTree = "<group>"; };
+		C396CA2B25E8197A00043A1A /* ResponseToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseToken.swift; sourceTree = "<group>"; };
+		E851F5CB5455132A225968DF76A5E9F0 /* SocialLean-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialLean-umbrella.h"; sourceTree = "<group>"; };
+		EE6AA6276E2245CBF3999D73FFB1689D /* Pods-SocialLean_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialLean_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE915FC5B833FE9E9DF100F132FBE93C /* Pods-SocialLean_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialLean_Example-umbrella.h"; sourceTree = "<group>"; };
+		F0E98C96267C2EA61B6195EBC7078488 /* Pods-SocialLean_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialLean_Tests-Info.plist"; sourceTree = "<group>"; };
+		F1EB75BE4E0D88C2DD9DE2C8EC7FBAD7 /* FacebookLogin+Scopes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FacebookLogin+Scopes.swift"; sourceTree = "<group>"; };
+		FCD0C3011FE6686B106D988FA4EA8F09 /* SocialLean.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SocialLean.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFCA5718368F5AACCDBF4913D89F6E60 /* SocialLean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialLean.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03174D76F2176A2ED603BA3000C5442B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9540BA94769FA78C0D4F51479330B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC25AB9F4BD6AFC0A75B8823192437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBD7B006F4B92CA3934BEE0B43C6595 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F426FC817DA6721B3B0F43D9A6AF2719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5892AC7B03A8B6CDAFD4FA2288B243 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0044509B0BCCF3C297B23B96F4940637 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				432353794B8BA241CD34EEB8D5F31519 /* SocialLean.modulemap */,
+				67C5206E74BEC1D153421EEB7B91990C /* SocialLean-dummy.m */,
+				15A904CA3E9210F3DF6BFBB775A1639D /* SocialLean-Info.plist */,
+				59C9CC1A41FD3F63128D7A7C54ACB307 /* SocialLean-prefix.pch */,
+				E851F5CB5455132A225968DF76A5E9F0 /* SocialLean-umbrella.h */,
+				C37B92C91F791E2D72FED0BD2BBF6E44 /* SocialLean.debug.xcconfig */,
+				FFCA5718368F5AACCDBF4913D89F6E60 /* SocialLean.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SocialLean";
+			sourceTree = "<group>";
+		};
+		11BE5AD7C5F7CD0CA15C9E813C5D87FC /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				0E845F035244C049E79A0971DEA06887 /* FacebookLogin.swift */,
+				966762C24C42A7051BC435CE750A453B /* FacebookLogin+Errors.swift */,
+				F1EB75BE4E0D88C2DD9DE2C8EC7FBAD7 /* FacebookLogin+Scopes.swift */,
+			);
+			name = Facebook;
+			path = SocialLean/Classes/Facebook;
+			sourceTree = "<group>";
+		};
+		137A7D2E5170C8F953CF8FAA9288ABCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FDE632E035938BC869D3C02A7E60AC0 /* FacebookResponse.swift */,
+				C396CA2B25E8197A00043A1A /* ResponseToken.swift */,
+				C396CA2525E8194C00043A1A /* ResponseCode.swift */,
+			);
+			name = Models;
+			path = SocialLean/Classes/Models;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60C12D2F799EB3718243EA91B719525B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				675A070CB2EF9ED20B88722FFD875307 /* Pods_SocialLean_Example.framework */,
+				8F80428C5153B89A8918CAF23128E519 /* Pods_SocialLean_Tests.framework */,
+				22A5A838AD715DC8E83083E538375687 /* SocialLean.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		704FD3AF2D5AF20FF439CC95CC5C631D /* SocialLean */ = {
+			isa = PBXGroup;
+			children = (
+				C3959CE625EA9B1000426BE7 /* Protocols */,
+				C3959CD725EA97FA00426BE7 /* SocialLogin.swift */,
+				11BE5AD7C5F7CD0CA15C9E813C5D87FC /* Facebook */,
+				137A7D2E5170C8F953CF8FAA9288ABCD /* Models */,
+				AFF20D3428C2DD8054663E0107894A1D /* Pod */,
+				0044509B0BCCF3C297B23B96F4940637 /* Support Files */,
+			);
+			name = SocialLean;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99691EE47193C0ED1F1EEE51540685EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC61D4536D379C7277133928F4A0584D /* Pods-SocialLean_Example */,
+				E14504D2645FF85369B92A63E7C697E6 /* Pods-SocialLean_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFF20D3428C2DD8054663E0107894A1D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				605389BAA8BA358A844BDA141EE32515 /* LICENSE */,
+				1632B38F736C05BA55DCC4CC8483D3D3 /* README.md */,
+				FCD0C3011FE6686B106D988FA4EA8F09 /* SocialLean.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BEE5ED44567B918E7E2E876FC8C00000 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				704FD3AF2D5AF20FF439CC95CC5C631D /* SocialLean */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C3959CE625EA9B1000426BE7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C3959CE725EA9B2200426BE7 /* LoginResponse.swift */,
+			);
+			name = Protocols;
+			path = SocialLean/Classes/Protocols;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BEE5ED44567B918E7E2E876FC8C00000 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				60C12D2F799EB3718243EA91B719525B /* Products */,
+				99691EE47193C0ED1F1EEE51540685EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		E14504D2645FF85369B92A63E7C697E6 /* Pods-SocialLean_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				885A1E39972BB653D42A92221D6CA25E /* Pods-SocialLean_Tests.modulemap */,
+				0331617C781153D2808E3303C7902954 /* Pods-SocialLean_Tests-acknowledgements.markdown */,
+				040E661D8D4C03E894EB8746BD0A8AA8 /* Pods-SocialLean_Tests-acknowledgements.plist */,
+				5F11F159630CAC9D5732CC599FF6AE17 /* Pods-SocialLean_Tests-dummy.m */,
+				F0E98C96267C2EA61B6195EBC7078488 /* Pods-SocialLean_Tests-Info.plist */,
+				5FBDE220B6E55045EEF2D01062E1C893 /* Pods-SocialLean_Tests-umbrella.h */,
+				4D4BA35BAC864AE14DE0F59D0DC41E8B /* Pods-SocialLean_Tests.debug.xcconfig */,
+				0329217CD472A6AF2124169FAFA44B1E /* Pods-SocialLean_Tests.release.xcconfig */,
+			);
+			name = "Pods-SocialLean_Tests";
+			path = "Target Support Files/Pods-SocialLean_Tests";
+			sourceTree = "<group>";
+		};
+		EC61D4536D379C7277133928F4A0584D /* Pods-SocialLean_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0559A70DC2BBAF3A917492119E8C48C4 /* Pods-SocialLean_Example.modulemap */,
+				EE6AA6276E2245CBF3999D73FFB1689D /* Pods-SocialLean_Example-acknowledgements.markdown */,
+				BB82C492E5257A26CC4A3DA00FA55438 /* Pods-SocialLean_Example-acknowledgements.plist */,
+				36329087E1A0EA99F98C0C9692FAD6DF /* Pods-SocialLean_Example-dummy.m */,
+				59E7BBB37A8DA96043E5399F9487EBB7 /* Pods-SocialLean_Example-frameworks.sh */,
+				95B939394F3FBB8ED61CFD10BC84015F /* Pods-SocialLean_Example-Info.plist */,
+				EE915FC5B833FE9E9DF100F132FBE93C /* Pods-SocialLean_Example-umbrella.h */,
+				B6E4390E0E6D193438F3E1AFBD2F0234 /* Pods-SocialLean_Example.debug.xcconfig */,
+				92911F164893831BE3E6F3D5BDD854A0 /* Pods-SocialLean_Example.release.xcconfig */,
+			);
+			name = "Pods-SocialLean_Example";
+			path = "Target Support Files/Pods-SocialLean_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4872DC5C6DC67AC3F9BF79F07EB0DC5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8060C7247D685AAA2C35B6B9F0F1A5F5 /* Pods-SocialLean_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0C1269BE5F7CB2E5531B284E3F421D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD365C24AF6FE4E7C22257E8CC90888 /* Pods-SocialLean_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0079C8907638C4A953223B2EA1F217 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389112D76513B16512B70FE327D1F6C7 /* SocialLean-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B62BC2A325192D308BDFFDBC7E19A31 /* Pods-SocialLean_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311C10D856A167DDDFDA9D6C99DC5332 /* Build configuration list for PBXNativeTarget "Pods-SocialLean_Tests" */;
+			buildPhases = (
+				CE0C1269BE5F7CB2E5531B284E3F421D /* Headers */,
+				73E470DF16D99E758F8A1FE53AD27859 /* Sources */,
+				F426FC817DA6721B3B0F43D9A6AF2719 /* Frameworks */,
+				5D38FB1FAECABF9BD85794E57F244600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98E6A436F31CF6D62F184DB50576D04 /* PBXTargetDependency */,
+			);
+			name = "Pods-SocialLean_Tests";
+			productName = "Pods-SocialLean_Tests";
+			productReference = 8F80428C5153B89A8918CAF23128E519 /* Pods_SocialLean_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		678550B37657F0DD3FFB45FF6D83E6A7 /* Pods-SocialLean_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B4A22D97E9863B1C444027901185F4 /* Build configuration list for PBXNativeTarget "Pods-SocialLean_Example" */;
+			buildPhases = (
+				4872DC5C6DC67AC3F9BF79F07EB0DC5E /* Headers */,
+				B04B8AD2CABB2BEF392789751738F8A9 /* Sources */,
+				03174D76F2176A2ED603BA3000C5442B /* Frameworks */,
+				652F6F322C731E35153E97A6D81E6709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2AE77B28BFBE197B508FD6669053382 /* PBXTargetDependency */,
+				FD29AC27FCA9F73E7FA3CD4E4E84E847 /* PBXTargetDependency */,
+			);
+			name = "Pods-SocialLean_Example";
+			productName = "Pods-SocialLean_Example";
+			productReference = 675A070CB2EF9ED20B88722FFD875307 /* Pods_SocialLean_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70E71816A22AE198AF3BA382DC417789 /* SocialLean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B577818CA3C9895EF988E05C37A26663 /* Build configuration list for PBXNativeTarget "SocialLean" */;
+			buildPhases = (
+				DB0079C8907638C4A953223B2EA1F217 /* Headers */,
+				84557D8A24AB6B46629410D28063CB8E /* Sources */,
+				67BC25AB9F4BD6AFC0A75B8823192437 /* Frameworks */,
+				4269434C06FE4EFEDD28D4E5407D84E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialLean;
+			productName = SocialLean;
+			productReference = 22A5A838AD715DC8E83083E538375687 /* SocialLean.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					678550B37657F0DD3FFB45FF6D83E6A7 = {
+						LastSwiftMigration = 1240;
+					};
+					70E71816A22AE198AF3BA382DC417789 = {
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 60C12D2F799EB3718243EA91B719525B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678550B37657F0DD3FFB45FF6D83E6A7 /* Pods-SocialLean_Example */,
+				2B62BC2A325192D308BDFFDBC7E19A31 /* Pods-SocialLean_Tests */,
+				70E71816A22AE198AF3BA382DC417789 /* SocialLean */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4269434C06FE4EFEDD28D4E5407D84E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D38FB1FAECABF9BD85794E57F244600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652F6F322C731E35153E97A6D81E6709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E470DF16D99E758F8A1FE53AD27859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC87BD4E3DE83F42F909692B3B181CA /* Pods-SocialLean_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84557D8A24AB6B46629410D28063CB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3959CE125EA9A4900426BE7 /* SocialLogin.swift in Sources */,
+				C396CA2625E8194C00043A1A /* ResponseCode.swift in Sources */,
+				C3959CE825EA9B2200426BE7 /* LoginResponse.swift in Sources */,
+				3B4DC82D00A68FB9043B513E48286A73 /* FacebookLogin+Errors.swift in Sources */,
+				E55E0F792CF3F2C35B130A0E976403AB /* FacebookLogin+Scopes.swift in Sources */,
+				66581337C048EC41B10CD7946E0AA8DC /* FacebookLogin.swift in Sources */,
+				CD32989AB00AD19E9EB3B6839D30EB85 /* FacebookResponse.swift in Sources */,
+				C396CA2C25E8197A00043A1A /* ResponseToken.swift in Sources */,
+				5F33FFB31BCF990EE3C61393EB846751 /* SocialLean-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B8AD2CABB2BEF392789751738F8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F951CA2759F9B316F01A03D1CCD5DD /* Pods-SocialLean_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98E6A436F31CF6D62F184DB50576D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SocialLean_Example";
+			target = 678550B37657F0DD3FFB45FF6D83E6A7 /* Pods-SocialLean_Example */;
+			targetProxy = BCEE201364EBA9FB5D306B44B5DBCBF1 /* PBXContainerItemProxy */;
+		};
+		E2AE77B28BFBE197B508FD6669053382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocialLean;
+			target = 70E71816A22AE198AF3BA382DC417789 /* SocialLean */;
+			targetProxy = 0F729D71E771FD7DAFA4000D7D60B67A /* PBXContainerItemProxy */;
+		};
+		FD29AC27FCA9F73E7FA3CD4E4E84E847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = C791D279C62B2524B2B502A76EAC286C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BC6B46AE6EA361CDCF93B96939B24A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4BA35BAC864AE14DE0F59D0DC41E8B /* Pods-SocialLean_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialLean_Tests/Pods-SocialLean_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialLean_Tests/Pods-SocialLean_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		376AFC6C5D2B965E2B6DC7573091AAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92911F164893831BE3E6F3D5BDD854A0 /* Pods-SocialLean_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialLean_Example/Pods-SocialLean_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialLean_Example/Pods-SocialLean_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39D0F8C0DF8A3DF1976A02725A047CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		74A4367AFBA2BC72E9F0249101354BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74E5C49A7564431D5C3BCAF4DFF6A13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37B92C91F791E2D72FED0BD2BBF6E44 /* SocialLean.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocialLean/SocialLean-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialLean/SocialLean-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocialLean/SocialLean.modulemap";
+				PRODUCT_MODULE_NAME = SocialLean;
+				PRODUCT_NAME = SocialLean;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		864A54228B7F77418194FA10CBA72E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCA5718368F5AACCDBF4913D89F6E60 /* SocialLean.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocialLean/SocialLean-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialLean/SocialLean-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocialLean/SocialLean.modulemap";
+				PRODUCT_MODULE_NAME = SocialLean;
+				PRODUCT_NAME = SocialLean;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1D1D4BB4D7BC94CC5F208D9B52A1A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E4390E0E6D193438F3E1AFBD2F0234 /* Pods-SocialLean_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialLean_Example/Pods-SocialLean_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialLean_Example/Pods-SocialLean_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA62944EB81246F2B96324C92493348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0329217CD472A6AF2124169FAFA44B1E /* Pods-SocialLean_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialLean_Tests/Pods-SocialLean_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialLean_Tests/Pods-SocialLean_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311C10D856A167DDDFDA9D6C99DC5332 /* Build configuration list for PBXNativeTarget "Pods-SocialLean_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC6B46AE6EA361CDCF93B96939B24A3 /* Debug */,
+				FA62944EB81246F2B96324C92493348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B4A22D97E9863B1C444027901185F4 /* Build configuration list for PBXNativeTarget "Pods-SocialLean_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D1D4BB4D7BC94CC5F208D9B52A1A28 /* Debug */,
+				376AFC6C5D2B965E2B6DC7573091AAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A4367AFBA2BC72E9F0249101354BDA /* Debug */,
+				39D0F8C0DF8A3DF1976A02725A047CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B577818CA3C9895EF988E05C37A26663 /* Build configuration list for PBXNativeTarget "SocialLean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E5C49A7564431D5C3BCAF4DFF6A13B /* Debug */,
+				864A54228B7F77418194FA10CBA72E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

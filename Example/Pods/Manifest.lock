@@ -1,0 +1,23 @@
+PODS:
+  - SocialLean (0.1.0)
+  - SwiftLint (0.42.0)
+
+DEPENDENCIES:
+  - SocialLean (from `../`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  SocialLean:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SocialLean: 4a12d852155dee0e1e11ba28f79cc5ad420c2bda
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+
+PODFILE CHECKSUM: 98844cf4bd1ccc6290c9e637a626d3533a1da5e8
+
+COCOAPODS: 1.10.1
