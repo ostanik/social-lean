@@ -22,7 +22,7 @@ pod 'SocialLean'
 
 ## Author
 
-ostanik, [@ostanik](https://twitter.com/aostanik)
+[@ostanik](https://twitter.com/aostanik)
 
 ## License
 
